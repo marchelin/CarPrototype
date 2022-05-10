@@ -1,0 +1,26 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class InworldUIController : MonoBehaviour
+{
+    CarController carController;
+
+    public Text thrustText;
+    public Text brakeText;
+    public Text stearingText;
+
+    void Update()
+    {
+        /*
+        thrustSlider.value = carController.lastTorque / carController.torque;
+        brakeSlider.value = carController.lastBreak / carController.brakeTorque;
+        stearingImage.rectTransform.localRotation = Quaternion.Euler(0f, 0f, -carController.lastStearing);
+
+        thrustText.text = "Thrust: " + carController.lastTorque.ToString("F2");
+        brakeText.text = "Brake: " + carController.lastBreak.ToString("F2");
+        stearingText.text = "Steering: " + carController.lastStearing.ToString("F2");
+        */
+    }
+}
